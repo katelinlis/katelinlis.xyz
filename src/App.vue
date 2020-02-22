@@ -13,7 +13,7 @@
                 <a class="p-2 text-dark" href="#social">Social</a>
                 </nav>
             </div>
-      <p style="padding-left: 1.5rem !important;" class="lead font-italic  my-3">Привет! Меня зовут Кейтлин. <br>
+      <p style="padding-left: 1.5rem !important; text-align:center;" class="lead font-italic  my-3">Привет! Меня зовут Кейтлин. <br>
          Я работаю в сфере веб разработки 5 лет <br>
          Я могу для вас разработать клиентскую или серверную часть для вашего сайта<br>
          А так же помоч в доработке той или иной идеи
