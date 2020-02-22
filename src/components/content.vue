@@ -94,5 +94,8 @@
 .img75{
     width: 75px;
     height: 75px;
+    position: absolute;
+    z-index: 2;
+    margin-top: -40px;
 }
 </style>
