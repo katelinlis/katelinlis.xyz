@@ -1,7 +1,7 @@
 <template>
   <div id="app">    
     <div class="card">
-      <div class="card-body" style="height: 248px">
+      <div class="card-body" v-bind:class="{'mobile':!isMobile,'pc':isMobile,}">
         <div>
           <div  class=" d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white" v-bind:class="{'fixed-top border-bottom shadow-sm':StickyHeader}">
             <h5 class="my-0 mr-md-auto font-weight-normal">Katelinlis</h5>
@@ -24,7 +24,6 @@
 </template>
 
 <script>
-
 
 import contentPage from '@/components/content'
 
@@ -51,6 +50,12 @@ export default {
 </script>
 
 <style>
+  .MainHeight {
+    height: 248px;
+  }
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){ .MainHeight { height: 408px; }}
 
   .container {
     padding-top: 30px;
